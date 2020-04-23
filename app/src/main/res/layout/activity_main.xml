@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#45A275"
     tools:context=".MainActivity">
 
     <Button
@@ -36,7 +37,7 @@
         android:layout_height="69dp"
         android:layout_marginStart="152dp"
         android:layout_marginBottom="44dp"
-        android:text="Click to play super simon"
+        android:text="Click to play random super simon"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
@@ -61,7 +62,7 @@
         android:layout_height="69dp"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="44dp"
-        android:text="Click to play classic simon"
+        android:text="Click to play random simon"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"

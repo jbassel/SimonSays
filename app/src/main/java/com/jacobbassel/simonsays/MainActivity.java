@@ -37,11 +37,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         TextView text3 = (TextView) findViewById(R.id.textView5);
 
         if (view.getId() == R.id.button3) {
-            text3.setText("This game requires that you pay attention to the color pattern.  You must then click the buttons in the order that simon said to earn points.  You have colors and sounds to coordinate the buttons.  Good Luck!");
+            text3.setText("This game requires that you pay attention to the color pattern.  You must then click the buttons in the order that simon said to earn points.  The patterns are randomized with each iteration.  You have colors and sounds to coordinate the buttons.  Good Luck!");
         }
 
         if (view.getId() == R.id.button10) {
-            text3.setText("This game requires that you pay attention to the positions that simon says to press.  All colors are the same, so you only have the sounds and positions to know what to press.  Good Luck!");
+            text3.setText("This game requires that you pay attention to the positions that simon says to press.  All colors are the same, so you only have the sounds and positions to know what to press.  The patterns are randomized with each iteration Good Luck!");
         }
 
         if (view.getId() == R.id.button) {
