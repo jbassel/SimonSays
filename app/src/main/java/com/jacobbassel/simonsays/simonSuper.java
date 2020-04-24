@@ -54,6 +54,7 @@ public class simonSuper extends AppCompatActivity {
         Button button6 = (Button) findViewById(R.id.button7);
         TextView text = (TextView) findViewById(R.id.textView);
         TextView text2 = (TextView) findViewById(R.id.textView4);
+        TextView text3 = (TextView) findViewById(R.id.textView6);
 
         findViewById(R.id.button2).setOnClickListener(new MyTimer());
         findViewById(R.id.button4).setOnClickListener(new MyTimer());
